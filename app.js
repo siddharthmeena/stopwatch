@@ -22,6 +22,7 @@ function stop(){
 }
 function reset(){
     count=0;
+    stop();
     countTime()
 }
 
